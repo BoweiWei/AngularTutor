@@ -20,6 +20,7 @@
   <span>Password: </span>
   <input type="password">
 </div>
+
 <div *ngIf="isLogin" class="informBoxBoarder"> You Loggedin as {{ userName }} </div>
 <button class="btn btn-light" (click)="login()" style="margin-right: 10px"> Login </button>
 <button class="btn btn-light" (click)="signOut()"> Sign Out </button>

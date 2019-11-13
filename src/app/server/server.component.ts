@@ -3,6 +3,7 @@ import { Student } from '../../shared/student.model';
 
 @Component({
   // select: '[app-server]',
+  // selector is the nametag used to import this whole part in html
   selector: 'app-server',
   templateUrl: './server.component.html', // you can put real html here
   styleUrls: ['./server.component.css']
